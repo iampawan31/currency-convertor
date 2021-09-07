@@ -22,6 +22,7 @@ const CurrencyConvertor = ({
             type="text"
             name="amount"
             placeholder="0.00"
+            autoComplete="off"
             id="amount"
             className="mt-1 focus:ring-yellow-500 focus:border-yellow-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
             value={amount}

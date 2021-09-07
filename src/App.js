@@ -32,8 +32,8 @@ const App = () => {
   return (
     <div className="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500">
       <div className="container mx-auto">
-        <div className="flex items-center justify-center h-screen">
-          <div className="flex flex-col bg-black bg-opacity-20 shadow-md rounded w-full sm:w-max sm:h-max sm:h-96 h-max px-6 pt-10 pb-8">
+        <div className="flex pt-10 sm:pt-0 sm:items-center justify-center h-screen">
+          <div className="flex flex-col sm:bg-black sm:bg-opacity-20 shadow-md rounded w-full sm:w-max sm:h-max sm:h-96 h-max px-6 pt-10 pb-8">
             <div className="text-center w-full mb-10">
               <p className="text-6xl font-thin text-white">
                 Currency Convertor
