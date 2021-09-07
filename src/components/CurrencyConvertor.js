@@ -10,7 +10,7 @@ const CurrencyConvertor = ({
 }) => {
   return (
     <>
-      <div className="flex space-x-2 mb-10">
+      <div className="flex flex-col sm:flex-row sm:space-x-2 mb-10">
         <div className="flex flex-col">
           <label
             htmlFor="amount"
